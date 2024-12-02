@@ -13,11 +13,11 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route path="/notes" element={<Notes />} />
-        <Route path="/carousel" element={<Carousel />} />
-        <Route path="/calculator" element={<Calculator />} />
-        <Route path="/library" element={<LibraryPage />} />
-        <Route path={'/algorithms'} element={<Algorithms />} />
+        <Route path="/ReactTestApp/notes" element={<Notes />} />
+        <Route path="/ReactTestApp/carousel" element={<Carousel />} />
+        <Route path="/ReactTestApp/calculator" element={<Calculator />} />
+        <Route path="/ReactTestApp/library" element={<LibraryPage />} />
+        <Route path='/ReactTestApp/algorithms' element={<Algorithms />} />
       </Routes>
     </>
   )
