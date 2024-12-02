@@ -1,0 +1,30 @@
+.note {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 16px;
+    padding: 0 0 0 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    margin-bottom: 10px;
+}
+
+.note_done {
+    box-shadow: none;
+    background-color: #F0F0F0;
+}
+
+.note:hover {
+    box-shadow: none;
+}
+
+.note__content {
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.note__del-button {
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+}

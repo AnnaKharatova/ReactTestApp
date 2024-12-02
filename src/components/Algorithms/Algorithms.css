@@ -1,0 +1,26 @@
+.algorithms {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.algorithms__form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.algorithms__input {
+    width: 500px;
+    border-radius: 7px;
+    margin-right: 20px;
+    padding: 8px 10px;
+}
+
+.algorithms__button {
+    width: 15%;
+    margin-right: 15px;
+    padding: 7px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+}

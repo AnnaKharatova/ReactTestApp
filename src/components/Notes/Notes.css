@@ -1,0 +1,66 @@
+.notes {
+    display: flex;
+    gap: 5px;
+    width: 80%;
+    margin: 50px auto 40px;
+}
+
+.notes__header {
+    width: 80%;
+    margin: 30px auto;
+}
+
+.notes__input {
+    width: 90%;
+    height: 40px;
+    border-radius: 16px;
+    border: 2px solid rgb(102, 102, 224);
+    padding: 0 10px;
+}
+
+.notes__add-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(102, 102, 224);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.notes__add-button:hover {
+    opacity: .7;
+}
+
+.notes__empty {
+    text-align: center;
+    opacity: .7;
+}
+
+.notes__buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.notes__filter-button {
+    box-sizing: border-box;
+    background-color: inherit;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: rgb(102, 102, 224);
+    border-bottom: 1px solid #ffffff;
+}
+
+.notes__filter-button:hover {
+    border-bottom: 1px solid rgb(102, 102, 224);
+}
+
+.notes__list {
+    list-style: none;
+    padding: 0;
+    width: 80%;
+    margin: 30px auto;
+}

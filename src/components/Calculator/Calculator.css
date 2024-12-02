@@ -1,0 +1,27 @@
+.calculator {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.calculator__input {
+    width: 100px;
+    border-radius: 7px;
+    margin-right: 20px;
+    padding: 7px 10px;
+}
+
+.calculator__buttons {
+    margin-top: 30px;
+}
+
+.calculator__button {
+    margin-right: 15px;
+    padding: 7px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.calculator__button:hover {
+    opacity: .7;
+}
