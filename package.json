@@ -1,6 +1,6 @@
 {
   "name": "react-test-app",
-  "homepage": "https://github.com/AnnaKharatova/ReactTestApp.io",
+  "homepage": "https://annakharatova.github.io/ReactTestApp",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "gh-pages": "^6.2.0",
